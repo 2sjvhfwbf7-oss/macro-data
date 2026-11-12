@@ -1,0 +1,38 @@
+name: Monthly macro fetch
+
+on:
+  schedule:
+    # 1st of every month, 14:17 UTC (~6am Pacific). Off-the-hour to avoid GitHub's busy :00 slot.
+    - cron: "17 14 1 * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch indicators
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python fetch.py
+
+      - name: Commit data
+        if: always()   # keep partial data even if the error threshold tripped
+        run: |
+          git config user.name  "macro-fetch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add latest.txt data/
+          git diff --cached --quiet || git commit -m "Data fetch $(date -u +%Y-%m-%d)"
+          git push

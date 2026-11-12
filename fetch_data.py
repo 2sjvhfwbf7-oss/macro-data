@@ -42,6 +42,7 @@ def fetch_yahoo_history(symbol, days=180, attempts=4):
     for i in range(attempts):
         try:
             hist = yf.Ticker(symbol).history(period="6mo")
+            hist = hist.dropna(subset=["Close"])  # Yahoo can return a blank row for the current day
             if not hist.empty:
                 return [(str(idx.date()), float(row["Close"])) for idx, row in hist.iterrows()]
             last_err = "empty response"

@@ -5,6 +5,9 @@ on:
     # 1st of every month, 14:17 UTC (~6am Pacific). Off-the-hour to avoid GitHub's busy :00 slot.
     - cron: "17 14 1 * *"
   workflow_dispatch: {}   # adds a "Run workflow" button for manual runs
+  push:                   # re-test automatically when the fetch code changes
+    branches: [main]
+    paths: ["fetch.py", "fetch_data.py", "tickers.py", "requirements.txt", ".github/workflows/fetch.yml"]
 
 permissions:
   contents: write

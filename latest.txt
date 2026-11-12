@@ -1,0 +1,36 @@
+Fetched: 2026-11-12 01:08:08
+
+## Heat Gauge
+- DXY: now=102.8450 (as of 2026-11-11) | 1mo ago=102.5800 | 3mo ago=99.9600 | 6mo ago=99.2700 | 6mo range: 97.9400 to 102.8450
+- MOVE: now=92.4300 (as of 2026-11-10) | 1mo ago=98.4700 | 3mo ago=72.0900 | 6mo ago=69.6300 | 6mo range: 65.3900 to 113.6000
+- BAMLH0A0HYM2: now=3.3400 (as of 2026-11-09) | 1mo ago=3.1100 | 3mo ago=2.7200 | 6mo ago=2.8300 | 6mo range: 2.6000 to 3.4800
+- BRENT: now=92.1800 (as of 2026-11-11) | 1mo ago=106.6500 | 3mo ago=87.0700 | 6mo ago=109.2600 | 6mo range: 71.5700 to 117.6400
+- DFII10: now=2.6600 (as of 2026-11-09) | 1mo ago=2.9100 | 3mo ago=2.4300 | 6mo ago=2.1300 | 6mo range: 2.0600 to 2.9500
+- VIX: now=17.4900 (as of 2026-11-11) | 1mo ago=15.2100 | 3mo ago=14.6300 | 6mo ago=18.4300 | 6mo range: 14.2100 to 28.1800
+
+## Engine Gauge
+- WALCL: now=6,748,145.0000 (as of 2026-11-04) | 1mo ago=6,747,560.0000 | 3mo ago=6,748,567.0000 | 6mo ago=6,713,643.0000 | 6mo range: 6,704,383.0000 to 6,759,955.0000
+- HG1!: now=6.2620 (as of 2026-11-11) | 1mo ago=6.6985 | 3mo ago=6.5925 | 6mo ago=6.2515 | 6mo range: 5.9430 to 6.8035
+- GOLD: now=4,000.3999 (as of 2026-11-11) | 1mo ago=4,190.6001 | 3mo ago=4,420.3999 | 6mo ago=4,561.8999 | 6mo range: 3,898.8999 to 4,728.7002
+- MCX (FTSE 250): now=24,746.6992 (as of 2026-11-10) | 1mo ago=24,328.0996 | 3mo ago=24,814.9004 | 6mo ago=22,828.0996 | 6mo range: 22,466.1992 to 24,938.8008
+- LBR/GOLD*100: now=12.9987 (as of 2026-11-11) | 1mo ago=12.8741 | 3mo ago=12.8721 | 6mo ago=12.9332 | 6mo range: 11.9961 to 16.2338
+- CN10Y: NO DATA (China 10Y - no clean free source, needs follow-up)
+- EWY: now=nan (as of 2026-11-11) | 1mo ago=170.1100 | 3mo ago=178.6200 | 6mo ago=178.8600 | 6mo range: 131.6500 to 219.2000
+
+## Recession Clock
+- T10Y2Y: now=0.2500 (as of 2026-11-10) | 1mo ago=0.4400 | 3mo ago=0.4800 | 6mo ago=0.5400 | 6mo range: 0.2000 to 0.5400
+- GB10Y-GB02Y: NO DATA (UK 2s10s - no clean free daily source)
+
+## Benchmark & Risk
+- US10Y: now=4.8800 (as of 2026-11-09) | 1mo ago=5.2400 | 3mo ago=4.7000 | 6mo ago=4.6100 | 6mo range: 4.3800 to 5.3100
+- GB10Y: NO DATA (UK 10Y gilt - no clean free daily source)
+- USDJPY: now=159.5460 (as of 2026-11-12) | 1mo ago=158.5200 | 3mo ago=159.4260 | 6mo ago=158.3820 | 6mo range: 153.4240 to 163.8640
+- SP500: now=7,619.3799 (as of 2026-11-11) | 1mo ago=7,807.2402 | 3mo ago=7,798.9902 | 6mo ago=7,408.5000 | 6mo range: 7,266.9902 to 7,818.9302
+
+## Real World
+- STLFSI4: now=-0.5224 (as of 2026-10-30) | 1mo ago=-0.4612 | 3mo ago=-0.5027 | 6mo ago=-0.7573 | 6mo range: -0.9475 to -0.4612
+- DRCCLT100S: now=2.7400 (as of 2026-04-01) | 1mo ago=2.7400 | 3mo ago=2.7400 | 6mo ago=2.7400 | 6mo range: 2.7400 to 2.7400
+- WMT/TGT: now=nan (as of 2026-11-11) | 1mo ago=0.7413 | 3mo ago=0.7476 | 6mo ago=1.0949 | 6mo range: 0.6229 to 1.0956
+- PSAVERT: now=3.8000 (as of 2026-09-01) | 1mo ago=4.0000 | 3mo ago=4.4000 | 6mo ago=4.4000 | 6mo range: 3.8000 to 4.5000
+- UMCSENT: now=48.1000 (as of 2026-09-01) | 1mo ago=51.7000 | 3mo ago=49.5000 | 6mo ago=44.8000 | 6mo range: 44.8000 to 55.2000
+- USIJC: now=189,000.0000 (as of 2026-10-31) | 1mo ago=198,000.0000 | 3mo ago=200,000.0000 | 6mo ago=210,000.0000 | 6mo range: 189,000.0000 to 230,000.0000
